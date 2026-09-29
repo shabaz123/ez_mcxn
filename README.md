@@ -10,7 +10,7 @@ This test board is intended for trying out the MCXN236VKLT microcontroller (100-
 
 # MCX Projects
 
-This folder contains a board config and example blinky application source code. The folders may be hard-coded in places; the mcx\_projects folder can be placed at c:\dev\projects to keep things seamless, otherwise you may need to edit files.
+This folder contains a board config and example blinky application source code. The folders may be hard-coded in places; the mcx\_projects folder can be placed at `c:\dev\projects` to keep things seamless, otherwise you may need to edit files.
 
 # Environment Variables
 
