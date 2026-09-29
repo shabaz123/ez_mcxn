@@ -1,0 +1,3 @@
+mainmenu "Double Blinky"
+
+source "${SdkRootDirPath}/Kconfig.mcuxpresso"
