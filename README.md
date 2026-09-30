@@ -336,7 +336,7 @@ After programming is complete, press `RESET` without holding `BOOT LOAD`. The MC
 
 Here is the parts list for the EZ-MXCN board:
 
-| Reference          | Qty | Value          | Descrioption                                                         |
+| Reference          | Qty | Value          | Description                                                          |
 | ------------------ | --- | -------------- | -------------------------------------------------------------------- |
 | R10, R11           | 2   | 5.1k           | 0603 Resistor                                                        |
 | R12, R13, R16, R17 | 4   | 10k            | 0603 Resistor                                                        |
