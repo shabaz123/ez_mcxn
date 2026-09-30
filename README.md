@@ -336,36 +336,37 @@ After programming is complete, press `RESET` without holding `BOOT LOAD`. The MC
 
 Here is the parts list for the EZ-MXCN board:
 
-| Reference                                  | Qty | Value          | Descrioption                                                         |
-| ------------------------------------------ | --- | -------------- | -------------------------------------------------------------------- |
-| R10,R11                                    | 2   | 5.1k           | 0603 Resistor                                                        |
-| R12,R13,R16,R17                            | 4   | 10k            | 0603 Resistor                                                        |
-| R14,R15                                    | 2   | 1k             | 0603 Resistor                                                        |
-| R20                                        | 1   | 0R             | 0402 zero-ohm Resistor                                               |
-| C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12,C16 | 13  | 100n           | 0402 Ceramic Capacitor X7R                                           |
-| C13,C14,C15,C24,C25                        | 5   | 1u             | 0603 Ceramic Capacitor X7R                                           |
-| C17                                        | 1   | 4.7u           | 0805 Ceramic Capacitor X7R                                           |
-| C18                                        | 1   | 2.2u           | 0805 Ceramic Capacitor X7R                                           |
-| C19                                        | 1   | 10u            | 0805 Ceramic Capacitor X5R 10V                                       |
-| C21,C22                                    | 2   | 10u            | Case B Tantalum Capacitor 10V e.g. TPSB106K016R0800                  |
-| C23                                        | 1   | 1n             | 0603 Ceramic Capacitor                                               |
-| C26,C27                                    | 2   | 4.7p           | 0603 Ceramic Capacitor                                               |
-| C29                                        | 1   | 1u             | 0805 Ceramic Capacitor                                               |
-| D1,D2                                      | 2   | LED            | 0805 LED (0603 fits too)                                             |
-| D3,D4                                      | 2   | 1N4001W        | SOD-123 Diode                                                        |
-| FB1,FB2                                    | 2   | BLM21AG121SH1D | SMD Ferrite Bead 0805 120 ohm                                        |
-| J1                                         | 1   | USB4085        | USB Type C Receptacle Through-Hole                                   |
-| J2-J11                                     | 1   | Header         | Dual Row 2.54mm Pin Header (total 2 x 42 way, cut to required sizes) |
-| J12                                        | 1   | MicroSD_socket | Same Sky MSD-4-A and possibly Molex 5027740891                       |
-| J13                                        | 1   | Keypad         | 4x4 or 4x3 keypad and 7- or 8-way header pin or socket if required   |
-| J14                                        | 1   | Terminal Block | 2-way Screw Terminal Block 3.5 or 3.81mm pitch                       |
-| SW1,SW2,SW3                                | 3   | SKQGAFE010     | Tact button SMD 5x5mm body 3.7x6.2mm pitch                           |
-| SW4, SW5                                   | 1   | TS-1101        | Tact button SMD 6x3.6mm                                              |
-| U1                                         | 1   | MCXN236VKLT    | NXP  MCXN236/235/547VKLT HLQFP100                                    |
-| U2                                         | 1   | MIC5209-3.3YS  | 3.3V LDO SOT-223                                                     |
-| U3                                         | 1   | SRV05-4        | ESD Diode Array                                                      |
-| Y1                                         | 1   | 830108212309   | Wurth 24MHz Crystal SMD 2016 4-pin 2.0x1.6mm                         |
-| Y2                                         | 1   | 830009678      | Wurth 32.768kHz Crystal SMD 2-pin 3.2x1.5mm                          |
+| Reference          | Qty | Value          | Descrioption                                                         |
+| ------------------ | --- | -------------- | -------------------------------------------------------------------- |
+| R10, R11           | 2   | 5.1k           | 0603 Resistor                                                        |
+| R12, R13, R16, R17 | 4   | 10k            | 0603 Resistor                                                        |
+| R14, R15           | 2   | 1k             | 0603 Resistor                                                        |
+| R20                | 1   | 0R             | 0402 zero-ohm Resistor                                               |
+| C1-C12, C16        | 13  | 100n           | 0402 Ceramic Capacitor X7R                                           |
+| C13-C15, C24, C25  | 5   | 1u             | 0603 Ceramic Capacitor X7R                                           |
+| C17                | 1   | 4.7u           | 0805 Ceramic Capacitor X7R                                           |
+| C18                | 1   | 2.2u           | 0805 Ceramic Capacitor X7R                                           |
+| C19                | 1   | 10u            | 0805 Ceramic Capacitor X5R 10V                                       |
+| C21, C22           | 2   | 10u            | Case B Tantalum Capacitor 10V e.g. TPSB106K016R0800                  |
+| C23                | 1   | 1n             | 0603 Ceramic Capacitor                                               |
+| C26, C27           | 2   | 4.7p           | 0603 Ceramic Capacitor                                               |
+| C29                | 1   | 1u             | 0805 Ceramic Capacitor                                               |
+| D1, D2             | 2   | LED            | 0805 LED (0603 fits too)                                             |
+| D3, D4             | 2   | 1N4001W        | SOD-123 Diode                                                        |
+| FB1, FB2           | 2   | BLM21AG121SH1D | SMD Ferrite Bead 0805 120 ohm                                        |
+| J1                 | 1   | USB4085        | USB Type C Receptacle Through-Hole                                   |
+| J2-J11             | 1   | Header         | Dual Row 2.54mm Pin Header (total 2 x 42 way, cut to required sizes) |
+| J12                | 1   | MicroSD_socket | Same Sky MSD-4-A and possibly Molex 5027740891                       |
+| J13                | 1   | Keypad         | 4x4 or 4x3 keypad and 7- or 8-way header pin or socket if required   |
+| J14                | 1   | Terminal Block | 2-way Screw Terminal Block 3.5 or 3.81mm pitch                       |
+| SW1-SW3            | 3   | SKQGAFE010     | Tact button SMD 5x5mm body 3.7x6.2mm pitch                           |
+| SW4, SW5           | 1   | TS-1101        | Tact button SMD 6x3.6mm                                              |
+| U1                 | 1   | MCXN236VKLT    | NXP  MCXN236/235/547VKLT HLQFP100                                    |
+| U2                 | 1   | MIC5209-3.3YS  | 3.3V LDO SOT-223                                                     |
+| U3                 | 1   | SRV05-4        | ESD Diode Array                                                      |
+| Y1                 | 1   | 830108212309   | Wurth 24MHz Crystal SMD 2016 4-pin 2.0x1.6mm                         |
+| Y2                 | 1   | 830009678      | Wurth 32.768kHz Crystal SMD 2-pin 3.2x1.5mm                          |
+
 
 
 
