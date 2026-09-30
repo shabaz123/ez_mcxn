@@ -301,6 +301,37 @@ After programming is complete, press `RESET` without holding `BOOT LOAD`. The MC
 
 > **Note:** ROM ISP is different from installing a custom USB DFU bootloader. The MCXN236 ROM bootloader is already built into the chip and cannot be accidentally erased with the application. Secure-boot, lifecycle and CMPA configuration can change what the ROM permits, so the simple procedure above assumes an unsecured development device with the normal internal-flash boot configuration.
 
+# EZ_MCXN Pin Allocations
+<!-- info: table: widths="6% 16% 6% 18% 6% 21% 6% 21%" -->
+
+| Pin | Use           | Pin | Use               | Pin | Use       | Pin | Use                         |
+| :-- | :------------ | :-- | :---------------- | :-- | :-------- | :-- | :-------------------------- |
+| 1   | UART\_RXD     | 26  | HDR\_PORT4        | 51  | SPARE(TP) | 76  | SWDIO                       |
+| 2   | UART\_TXD     | 27  | HDR\_PORT4        | 52  | 0V        | 77  | SWCLK                       |
+| 3   | CANTX         | 28  | HDR\_PORT4        | 53  | N/C       | 78  | SWO                         |
+| 4   | CANRX         | 29  | HDR\_PORT4        | 54  | 3.3V      | 79  | ?                           |
+| 5   | HDR\_PORT1    | 30  | 3.3V via FBEAD    | 55  | Cap to 0V | 80  | PDM\_CLM                    |
+| 6   | HDR\_PORT1    | 31  | 3.3V via FBEAD    | 56  | TFT\_DC   | 81  | PDM\_DAT                    |
+| 7   | HDR\_PORT1    | 32  | 0V                | 57  | TFT\_RST  | 82  | BOOT\_BTN\_CAP\_AND\_PULLUP |
+| 8   | HDR\_PORT1    | 33  | 0V                | 58  | Cap to 0V | 83  | 3.3V                        |
+| 9   | RST (R/C/BTN) | 34  | 3.3V              | 59  | 3.3V      | 84  | I2C\_SDA                    |
+| 10  | XTAL          | 35  | HDR\_PORT4GENERAL | 60  | TFT\_CS   | 85  | I2C\_SCL                    |
+| 11  | EXTAL         | 36  | HDR\_PORT4GENERAL | 61  | TFT\_BL   | 86  | PDM\_DAT1                   |
+| 12  | Short to 58   | 37  | HDR\_PORT4GENERAL | 62  | KEY\_ROW1 | 87  | SPARE(TP)                   |
+| 13  | 3.3V          | 38  | HDR\_PORT4GENERAL | 63  | KEY\_ROW2 | 88  | microSD MOSI                |
+| 14  | I2S\_A\_BCLK  | 39  | HDR\_PORT4GENERAL | 64  | KEY\_ROW3 | 89  | microSD SCK                 |
+| 15  | I2S\_A\_LRCLK | 40  | USBDP             | 65  | KEY\_ROW4 | 90  | microSD MISO                |
+| 16  | I2S\_B\_DAT   | 41  | USBDM             | 66  | 3.3V      | 91  | microSD CS                  |
+| 17  | I2S\_A\_DAT   | 42  | USB\_VBUS         | 67  | KEY\_COL1 | 92  | TFT\_MOSI                   |
+| 18  | I2S\_A\_DAT1  | 43  | 0V                | 68  | KEY\_COL2 | 93  | TFT\_SCK                    |
+| 19  | I2S\_B\_DAT1  | 44  | 3.3V              | 69  | KEY\_COL3 | 94  | TFT\_MISO                   |
+| 20  | I2S\_B\_BCLK  | 45  | NC/DP             | 70  | KEY\_COL4 | 95  | HDR\_PORT1                  |
+| 21  | I2S\_B\_LRCLK | 46  | NC/DM             | 71  | I2S\_MCLK | 96  | 3.3V                        |
+| 22  | HDR\_PORT4    | 47  | 3.3V              | 72  | LED1      | 97  | HDR\_PORT1                  |
+| 23  | HDR\_PORT4    | 48  | EXTAL32K          | 73  | 3.3V      | 98  | HDR\_PORT1                  |
+| 24  | HDR\_PORT4    | 49  | XTAL32K           | 74  | LED2      | 99  | HDR\_PORT1                  |
+| 25  | HDR\_PORT4    | 50  | N/C               | 75  | TFT\_CS2  | 100 | HDR\_PORT1                  |
+
 
 
 
