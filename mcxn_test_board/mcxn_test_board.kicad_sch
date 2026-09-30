@@ -6602,6 +6602,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "User_Global_Symbol_Library:PAD"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "User_Global_Library:bare-pad-3x3"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PAD_0_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PAD_1_1"
+				(pin no_connect line
+					(at 0 0 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "User_Global_Symbol_Library:SKQGAFE010"
 			(pin_numbers
 				(hide yes)
@@ -8942,6 +9043,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 209.55 256.54)
+		(end 297.18 283.21)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0461c68b-fbef-4819-8a96-81f438229428")
+	)
 	(text "24M"
 		(exclude_from_sim no)
 		(at 86.36 216.916 0)
@@ -8961,6 +9074,16 @@
 			)
 		)
 		(uuid "426acfee-a0d8-4567-87cf-34e50c3e72bd")
+	)
+	(text "BARE PADS"
+		(exclude_from_sim no)
+		(at 235.458 278.384 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "66c1ea96-9dd9-4c9f-a617-8dbc7013debd")
 	)
 	(text "1"
 		(exclude_from_sim no)
@@ -8995,7 +9118,7 @@
 	)
 	(text "Power Entry"
 		(exclude_from_sim no)
-		(at 20.32 272.288 0)
+		(at 19.05 264.668 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -9029,7 +9152,7 @@
 		(uuid "0a2b3842-f017-4bea-b0d2-22fd90daadcf")
 	)
 	(junction
-		(at 72.39 265.43)
+		(at 71.12 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0afb6472-3515-4227-ba93-c018451ba456")
@@ -9083,7 +9206,7 @@
 		(uuid "1d905e13-175e-44fb-a6cd-2409e7a6800c")
 	)
 	(junction
-		(at 31.75 256.54)
+		(at 30.48 248.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "203552f0-7aaf-41dc-ab84-c961297a93b9")
@@ -9167,7 +9290,7 @@
 		(uuid "46f62974-a7ae-49e5-9510-9f704f0fb7b6")
 	)
 	(junction
-		(at 53.34 252.73)
+		(at 52.07 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "488e9d13-d12b-4bed-8163-037eb57d7bb2")
@@ -9185,6 +9308,12 @@
 		(uuid "4a20ecb3-11f9-4e3f-8a38-6ed3dda5325e")
 	)
 	(junction
+		(at 43.18 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cf8c272-1b22-4d18-bdbc-23177b78ff8e")
+	)
+	(junction
 		(at 74.93 214.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9197,7 +9326,7 @@
 		(uuid "51396c50-6326-4b89-8ce8-bdfd39db3775")
 	)
 	(junction
-		(at 68.58 265.43)
+		(at 67.31 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59fdc3c1-a3bb-4a3f-bf7d-46164593cef1")
@@ -9239,7 +9368,7 @@
 		(uuid "66021cab-7190-4a16-9962-963de7086250")
 	)
 	(junction
-		(at 63.5 252.73)
+		(at 62.23 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ce931d2-931e-4e75-b237-d3f3c68f7e42")
@@ -9267,12 +9396,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "724fbc58-53ac-4786-aa95-f7c47266ba84")
-	)
-	(junction
-		(at 73.66 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "798806c4-fffd-4c89-9335-db579ecbfd59")
 	)
 	(junction
 		(at 344.17 113.03)
@@ -9317,7 +9440,7 @@
 		(uuid "8fb53727-bd6b-4e91-afd1-ddc6089e195b")
 	)
 	(junction
-		(at 82.55 252.73)
+		(at 81.28 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92ac0aed-7a8d-49cb-86d5-b9702b695993")
@@ -9347,10 +9470,16 @@
 		(uuid "98a71e65-722a-4ff4-9b0d-8de9672511af")
 	)
 	(junction
-		(at 53.34 90.17)
+		(at 38.1 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e53ceea-5619-42ab-afe9-1c8247aab3ff")
+	)
+	(junction
+		(at 35.56 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2c681f4-b22c-4a28-a01f-353a6c4ef8c9")
 	)
 	(junction
 		(at 228.6 36.83)
@@ -9359,13 +9488,19 @@
 		(uuid "a34f5016-c4c8-4a9d-8269-5a7eef6ea40b")
 	)
 	(junction
+		(at 58.42 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3b15c0a-030f-4740-8d1e-04f3a3d31391")
+	)
+	(junction
 		(at 50.8 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5ff14f4-8c9c-4ab5-ae77-974f57da2f98")
 	)
 	(junction
-		(at 57.15 252.73)
+		(at 55.88 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8ad4a8f-b1fb-4ed0-8797-1741e189aa87")
@@ -9407,7 +9542,7 @@
 		(uuid "be25506e-0baf-48d5-9dac-dbf2ccdc0aa0")
 	)
 	(junction
-		(at 53.34 96.52)
+		(at 38.1 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0de545e-a7f4-4ef3-98f4-8eb2b012634d")
@@ -9417,6 +9552,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2c555e5-c4af-4681-96b1-635edc039fff")
+	)
+	(junction
+		(at 35.56 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6353fec-2a09-434f-87a4-e1536d63053c")
 	)
 	(junction
 		(at 195.58 223.52)
@@ -9479,7 +9620,7 @@
 		(uuid "e46a34c0-a436-40c2-8ff6-cc13b22ba787")
 	)
 	(junction
-		(at 55.88 90.17)
+		(at 40.64 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e536d1df-310a-48dd-87e3-694b0bc948cb")
@@ -9507,6 +9648,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1e9e209-74a0-4f96-b310-6c4bd4f6d619")
+	)
+	(junction
+		(at 214.63 271.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f671da15-619c-4ed8-a644-f1822db164a6")
+	)
+	(junction
+		(at 214.63 269.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8b823ee-66ca-4d6d-8ff7-db02c49872d1")
+	)
+	(junction
+		(at 214.63 266.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fafa04c3-9035-45ac-84e9-b44b95f4ad93")
 	)
 	(junction
 		(at 73.66 139.7)
@@ -10740,6 +10899,16 @@
 		)
 		(uuid "00123f59-0d5c-4056-adcb-7a022602ffaa")
 	)
+	(wire
+		(pts
+			(xy 35.56 96.52) (xy 38.1 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "003e280b-4930-4144-93be-d5446d014888")
+	)
 	(bus
 		(pts
 			(xy 228.6 226.06) (xy 226.06 223.52)
@@ -10769,6 +10938,16 @@
 			(type default)
 		)
 		(uuid "00cee1d0-1c05-4e1b-9f20-a1298b0716b9")
+	)
+	(wire
+		(pts
+			(xy 214.63 266.7) (xy 214.63 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0111bb83-916d-478e-9334-d7cd7b8a63f6")
 	)
 	(wire
 		(pts
@@ -10952,6 +11131,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 90.17) (xy 73.66 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07e4b95a-6e1c-4354-81b3-8e09c5347ecb")
+	)
+	(wire
+		(pts
 			(xy 73.66 46.99) (xy 74.93 46.99)
 		)
 		(stroke
@@ -10982,7 +11171,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 96.52) (xy 53.34 96.52)
+			(xy 25.4 96.52) (xy 35.56 96.52)
 		)
 		(stroke
 			(width 0)
@@ -11042,7 +11231,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 264.16) (xy 53.34 252.73)
+			(xy 52.07 256.54) (xy 52.07 245.11)
 		)
 		(stroke
 			(width 0)
@@ -11182,7 +11371,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 90.17) (xy 55.88 91.44)
+			(xy 40.64 90.17) (xy 40.64 91.44)
 		)
 		(stroke
 			(width 0)
@@ -11239,6 +11428,16 @@
 			(type default)
 		)
 		(uuid "1830ac8c-bba2-4817-b18e-8daed570276a")
+	)
+	(wire
+		(pts
+			(xy 214.63 271.78) (xy 217.17 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "186a15e3-5574-4085-911b-92e99156af4b")
 	)
 	(wire
 		(pts
@@ -11622,7 +11821,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 90.17) (xy 53.34 90.17)
+			(xy 35.56 90.17) (xy 38.1 90.17)
 		)
 		(stroke
 			(width 0)
@@ -11652,7 +11851,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 252.73) (xy 88.9 252.73)
+			(xy 81.28 245.11) (xy 87.63 245.11)
 		)
 		(stroke
 			(width 0)
@@ -11692,7 +11891,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 252.73) (xy 80.01 252.73)
+			(xy 81.28 245.11) (xy 78.74 245.11)
 		)
 		(stroke
 			(width 0)
@@ -12002,16 +12201,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 77.47) (xy 66.04 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3da2db46-2593-4f76-b6e6-c4864c7a38f8")
-	)
-	(wire
-		(pts
 			(xy 196.85 205.74) (xy 204.47 205.74)
 		)
 		(stroke
@@ -12132,7 +12321,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 252.73) (xy 43.18 252.73)
+			(xy 38.1 245.11) (xy 41.91 245.11)
 		)
 		(stroke
 			(width 0)
@@ -12342,7 +12531,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 90.17) (xy 55.88 90.17)
+			(xy 38.1 90.17) (xy 40.64 90.17)
 		)
 		(stroke
 			(width 0)
@@ -12502,6 +12691,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 77.47) (xy 59.69 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54742fe8-1d0a-41b3-b498-2b54d80a9d49")
+	)
+	(wire
+		(pts
 			(xy 322.58 76.2) (xy 322.58 91.44)
 		)
 		(stroke
@@ -12552,7 +12751,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 260.35) (xy 72.39 265.43)
+			(xy 71.12 252.73) (xy 71.12 257.81)
 		)
 		(stroke
 			(width 0)
@@ -12662,7 +12861,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 264.16) (xy 31.75 256.54)
+			(xy 30.48 256.54) (xy 30.48 248.92)
 		)
 		(stroke
 			(width 0)
@@ -12972,6 +13171,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 266.7) (xy 217.17 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c5c2830-b5ba-4a01-871b-067fb5115243")
+	)
+	(wire
+		(pts
 			(xy 50.8 107.95) (xy 52.07 107.95)
 		)
 		(stroke
@@ -12979,6 +13188,16 @@
 			(type default)
 		)
 		(uuid "6cfbcafe-dde0-4154-9a16-47367222bfe3")
+	)
+	(wire
+		(pts
+			(xy 214.63 269.24) (xy 217.17 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ee1abe9-6eeb-4b6b-81cc-5b20e8dbd040")
 	)
 	(wire
 		(pts
@@ -13052,7 +13271,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 251.46) (xy 57.15 252.73)
+			(xy 55.88 243.84) (xy 55.88 245.11)
 		)
 		(stroke
 			(width 0)
@@ -13202,6 +13421,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 91.44) (xy 25.4 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ec23bb6-95c7-4eaa-a936-6a80aa3aee5a")
+	)
+	(wire
+		(pts
 			(xy 222.25 71.12) (xy 214.63 71.12)
 		)
 		(stroke
@@ -13292,7 +13521,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 259.08) (xy 82.55 252.73)
+			(xy 81.28 251.46) (xy 81.28 245.11)
 		)
 		(stroke
 			(width 0)
@@ -13329,6 +13558,16 @@
 			(type default)
 		)
 		(uuid "835d86f9-8ac8-47ac-be65-6c7a41b3bd62")
+	)
+	(wire
+		(pts
+			(xy 214.63 271.78) (xy 214.63 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83dc727a-8b21-4681-aa91-0bbb0c73f4ff")
 	)
 	(bus
 		(pts
@@ -13452,7 +13691,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 90.17) (xy 73.66 90.17)
+			(xy 40.64 90.17) (xy 43.18 90.17)
 		)
 		(stroke
 			(width 0)
@@ -13492,7 +13731,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 259.08) (xy 27.94 260.35)
+			(xy 26.67 251.46) (xy 26.67 252.73)
 		)
 		(stroke
 			(width 0)
@@ -13612,6 +13851,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 269.24) (xy 214.63 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9105dd68-8985-40bf-9445-eb76b93122eb")
+	)
+	(wire
+		(pts
 			(xy 161.29 48.26) (xy 167.64 48.26)
 		)
 		(stroke
@@ -13712,7 +13961,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 265.43) (xy 68.58 265.43)
+			(xy 62.23 257.81) (xy 67.31 257.81)
 		)
 		(stroke
 			(width 0)
@@ -13812,7 +14061,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 264.16) (xy 31.75 264.16)
+			(xy 41.91 256.54) (xy 30.48 256.54)
 		)
 		(stroke
 			(width 0)
@@ -13872,7 +14121,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 252.73) (xy 64.77 252.73)
+			(xy 62.23 245.11) (xy 63.5 245.11)
 		)
 		(stroke
 			(width 0)
@@ -13982,16 +14231,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 85.09) (xy 74.93 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a485ef2c-6ac3-474e-8cb5-ff34234ce6bb")
-	)
-	(wire
-		(pts
 			(xy 81.28 209.55) (xy 87.63 209.55)
 		)
 		(stroke
@@ -14002,7 +14241,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 96.52) (xy 55.88 96.52)
+			(xy 38.1 96.52) (xy 40.64 96.52)
 		)
 		(stroke
 			(width 0)
@@ -14082,7 +14321,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 252.73) (xy 57.15 252.73)
+			(xy 52.07 245.11) (xy 55.88 245.11)
 		)
 		(stroke
 			(width 0)
@@ -14202,6 +14441,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 85.09) (xy 74.93 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad70f70a-21d0-42e0-8f75-9ae32bca30a2")
+	)
+	(wire
+		(pts
 			(xy 204.47 203.2) (xy 203.2 203.2)
 		)
 		(stroke
@@ -14242,7 +14491,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 256.54) (xy 31.75 254)
+			(xy 30.48 248.92) (xy 30.48 246.38)
 		)
 		(stroke
 			(width 0)
@@ -14342,7 +14591,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 265.43) (xy 82.55 264.16)
+			(xy 81.28 257.81) (xy 81.28 256.54)
 		)
 		(stroke
 			(width 0)
@@ -14452,6 +14701,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 85.09) (xy 43.18 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b97ce8cf-58ff-4c4c-bbfb-f2dfc77a73c1")
+	)
+	(wire
+		(pts
 			(xy 320.04 114.3) (xy 320.04 115.57)
 		)
 		(stroke
@@ -14472,7 +14731,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 250.19) (xy 39.37 252.73)
+			(xy 38.1 242.57) (xy 38.1 245.11)
 		)
 		(stroke
 			(width 0)
@@ -14602,6 +14861,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 77.47) (xy 74.93 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1b55773-4659-4e48-abc1-db2224443ba4")
+	)
+	(wire
+		(pts
 			(xy 53.34 66.04) (xy 63.5 66.04)
 		)
 		(stroke
@@ -14642,7 +14911,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 91.44) (xy 50.8 90.17)
+			(xy 35.56 91.44) (xy 35.56 90.17)
 		)
 		(stroke
 			(width 0)
@@ -14882,7 +15151,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 265.43) (xy 72.39 265.43)
+			(xy 67.31 257.81) (xy 71.12 257.81)
 		)
 		(stroke
 			(width 0)
@@ -14930,6 +15199,16 @@
 		)
 		(uuid "d3c19fd9-ff5d-45ae-87e9-47c66ad9e26f")
 	)
+	(wire
+		(pts
+			(xy 58.42 85.09) (xy 58.42 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4701a60-7a3b-4056-b9c1-6e72765ec876")
+	)
 	(bus
 		(pts
 			(xy 229.87 92.71) (xy 227.33 95.25)
@@ -14962,7 +15241,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 256.54) (xy 31.75 256.54)
+			(xy 25.4 248.92) (xy 30.48 248.92)
 		)
 		(stroke
 			(width 0)
@@ -14982,7 +15261,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 259.08) (xy 63.5 252.73)
+			(xy 62.23 251.46) (xy 62.23 245.11)
 		)
 		(stroke
 			(width 0)
@@ -15012,7 +15291,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 265.43) (xy 68.58 266.7)
+			(xy 67.31 257.81) (xy 67.31 259.08)
 		)
 		(stroke
 			(width 0)
@@ -15022,7 +15301,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 264.16) (xy 53.34 264.16)
+			(xy 49.53 256.54) (xy 52.07 256.54)
 		)
 		(stroke
 			(width 0)
@@ -15162,6 +15441,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 85.09) (xy 43.18 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e085c90c-4ce3-49f2-8066-ba5f30ed9bc6")
+	)
+	(wire
+		(pts
 			(xy 142.24 110.49) (xy 148.59 110.49)
 		)
 		(stroke
@@ -15192,6 +15481,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 264.16) (xy 214.63 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e52700c1-610b-4264-a73d-e01c480398fe")
+	)
+	(wire
+		(pts
 			(xy 87.63 166.37) (xy 87.63 165.1)
 		)
 		(stroke
@@ -15199,6 +15498,16 @@
 			(type default)
 		)
 		(uuid "e597384a-47b1-4623-92f5-320f2bd25af9")
+	)
+	(wire
+		(pts
+			(xy 217.17 264.16) (xy 214.63 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5bca346-2893-4e26-b992-95628aae4c82")
 	)
 	(wire
 		(pts
@@ -15212,7 +15521,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 259.08) (xy 27.94 259.08)
+			(xy 25.4 251.46) (xy 26.67 251.46)
 		)
 		(stroke
 			(width 0)
@@ -15292,7 +15601,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 264.16) (xy 63.5 265.43)
+			(xy 62.23 256.54) (xy 62.23 257.81)
 		)
 		(stroke
 			(width 0)
@@ -15319,6 +15628,16 @@
 			(type default)
 		)
 		(uuid "eaf1adab-1a89-41a8-a6c2-e6282f749edc")
+	)
+	(wire
+		(pts
+			(xy 25.4 90.17) (xy 35.56 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb1c58f4-61b9-449a-9f9b-b7a01fb23f9f")
 	)
 	(wire
 		(pts
@@ -15472,16 +15791,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 77.47) (xy 66.04 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1fc4cb3-2b13-40e5-9d86-7f2065cc7369")
-	)
-	(wire
-		(pts
 			(xy 231.14 140.97) (xy 231.14 142.24)
 		)
 		(stroke
@@ -15592,7 +15901,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 252.73) (xy 63.5 252.73)
+			(xy 55.88 245.11) (xy 62.23 245.11)
 		)
 		(stroke
 			(width 0)
@@ -15642,7 +15951,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 252.73) (xy 88.9 251.46)
+			(xy 87.63 245.11) (xy 87.63 243.84)
 		)
 		(stroke
 			(width 0)
@@ -15732,6 +16041,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 77.47) (xy 66.04 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb72f247-82d2-435e-b24b-af4e9e3a961e")
+	)
+	(wire
+		(pts
 			(xy 148.59 53.34) (xy 148.59 54.61)
 		)
 		(stroke
@@ -15762,17 +16081,17 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 85.09) (xy 73.66 90.17)
+			(xy 52.07 85.09) (xy 58.42 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fe900b41-7a6f-4f49-836d-cd8228a032c5")
+		(uuid "fe5d02d4-0f14-4175-a1e2-9f9721fec600")
 	)
 	(wire
 		(pts
-			(xy 50.8 252.73) (xy 53.34 252.73)
+			(xy 49.53 245.11) (xy 52.07 245.11)
 		)
 		(stroke
 			(width 0)
@@ -15792,7 +16111,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 265.43) (xy 82.55 265.43)
+			(xy 71.12 257.81) (xy 81.28 257.81)
 		)
 		(stroke
 			(width 0)
@@ -17329,7 +17648,7 @@
 			(uuid "9aa34bd4-cfa0-46a2-8ed9-52e81ba19954")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR042")
 					(unit 1)
@@ -17408,7 +17727,7 @@
 			(uuid "de91751c-a1ca-4293-bb5f-ffbec6d7b846")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "TP6")
 					(unit 1)
@@ -17485,7 +17804,7 @@
 			(uuid "d724b5be-65d3-416b-b8fe-516e47f553d5")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR072")
 					(unit 1)
@@ -17562,7 +17881,7 @@
 			(uuid "a77e621e-8e44-4a75-bd9f-2b83c99d5fee")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR07")
 					(unit 1)
@@ -17572,7 +17891,7 @@
 	)
 	(symbol
 		(lib_id "User_Global_Symbol_Library:0V")
-		(at 27.94 260.35 0)
+		(at 26.67 252.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17582,7 +17901,7 @@
 		(dnp no)
 		(uuid "05811e35-2580-41a4-b69a-313ebd0a136e")
 		(property "Reference" "#PWR068"
-			(at 27.94 265.43 0)
+			(at 26.67 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17593,7 +17912,7 @@
 			)
 		)
 		(property "Value" "0V"
-			(at 27.94 263.144 0)
+			(at 26.67 255.524 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17603,7 +17922,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 260.35 0)
+			(at 26.67 252.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17614,7 +17933,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 260.35 0)
+			(at 26.67 252.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17625,7 +17944,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"0V\""
-			(at 27.94 260.35 0)
+			(at 26.67 252.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17639,7 +17958,7 @@
 			(uuid "cd8f0ea0-7b39-43d1-a5ff-92312a55d2a8")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR068")
 					(unit 1)
@@ -17728,7 +18047,7 @@
 			(uuid "2e8e5e94-1fa4-40ea-ae9a-20715aef62f1")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "R14")
 					(unit 1)
@@ -17738,7 +18057,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 88.9 251.46 0)
+		(at 87.63 243.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17748,7 +18067,7 @@
 		(dnp no)
 		(uuid "08d23c23-e2f2-4946-b609-a63b263c3a29")
 		(property "Reference" "#PWR025"
-			(at 88.9 255.27 0)
+			(at 87.63 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17759,7 +18078,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 88.9 247.396 0)
+			(at 87.63 239.776 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17769,7 +18088,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 251.46 0)
+			(at 87.63 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17780,7 +18099,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 251.46 0)
+			(at 87.63 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17791,7 +18110,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 88.9 251.46 0)
+			(at 87.63 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17805,7 +18124,7 @@
 			(uuid "d8a0bd8e-61fc-4bf6-be85-d7cadd33d734")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR025")
 					(unit 1)
@@ -18267,7 +18586,7 @@
 			(uuid "c3514247-3692-4431-b63c-d1a3a7fca475")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "U1")
 					(unit 4)
@@ -18729,7 +19048,7 @@
 			(uuid "c3514247-3692-4431-b63c-d1a3a7fca476")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "U1")
 					(unit 6)
@@ -18805,9 +19124,87 @@
 			(uuid "e0620b38-d863-4d7b-ac74-2b5eec62cf76")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Global_Symbol_Library:PAD")
+		(at 250.19 264.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b74380f-3b57-4d29-865f-b02e8f2fbbd4")
+		(property "Reference" "U10"
+			(at 250.19 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 250.19 264.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Global_Library:bare-pad-2x1"
+			(at 250.19 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 250.19 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "52b4aeef-8363-4410-83a3-80089f7dfaeb")
+		)
+		(instances
+			(project "mcxn_test_board"
+				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -18887,7 +19284,7 @@
 			(uuid "40cacc4f-1f00-4c73-859a-63f0169caca6")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "C12")
 					(unit 1)
@@ -18969,7 +19366,7 @@
 			(uuid "33ce3ba4-e55a-4fd6-b907-0574f323f265")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "C25")
 					(unit 1)
@@ -19045,7 +19442,7 @@
 			(uuid "c4bc8921-d04a-4778-bf23-c389e42270eb")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR076")
 					(unit 1)
@@ -19122,7 +19519,7 @@
 			(uuid "fe5d7591-22c5-44c8-9aba-f75fdeb0660f")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR075")
 					(unit 1)
@@ -19204,7 +19601,7 @@
 			(uuid "8fbc4661-9af2-4bf5-8958-633dbba99b40")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "SW3")
 					(unit 1)
@@ -19280,7 +19677,7 @@
 			(uuid "b4194831-4674-4eb2-adb5-72877284c0b0")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR035")
 					(unit 1)
@@ -19357,7 +19754,7 @@
 			(uuid "7a67b71e-e29d-4aab-8ed0-97d617b29ac6")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR016")
 					(unit 1)
@@ -19434,7 +19831,7 @@
 			(uuid "c5206a5e-8127-48db-98b1-0a352af2cc0e")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR065")
 					(unit 1)
@@ -19511,7 +19908,7 @@
 			(uuid "c9f9315c-c9b9-45b6-9430-08ab2185ace4")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR053")
 					(unit 1)
@@ -19600,7 +19997,7 @@
 			(uuid "ec38a184-c0e7-40ae-be5a-dbfcff3d030f")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "R16")
 					(unit 1)
@@ -19677,7 +20074,7 @@
 			(uuid "2939666a-7886-4e3d-b6e7-de2768c40700")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR027")
 					(unit 1)
@@ -19687,7 +20084,7 @@
 	)
 	(symbol
 		(lib_id "User_Global_Symbol_Library:0V")
-		(at 68.58 266.7 0)
+		(at 67.31 259.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19697,7 +20094,7 @@
 		(dnp no)
 		(uuid "16f7e35f-34a9-4896-9b66-6aecaa2fc787")
 		(property "Reference" "#PWR037"
-			(at 68.58 271.78 0)
+			(at 67.31 264.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19708,7 +20105,7 @@
 			)
 		)
 		(property "Value" "0V"
-			(at 68.58 269.494 0)
+			(at 67.31 261.874 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19718,7 +20115,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 266.7 0)
+			(at 67.31 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19729,7 +20126,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 266.7 0)
+			(at 67.31 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19740,7 +20137,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"0V\""
-			(at 68.58 266.7 0)
+			(at 67.31 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19754,7 +20151,7 @@
 			(uuid "63f23247-54a0-473a-b7b5-aac9ab9b59d2")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR037")
 					(unit 1)
@@ -19836,7 +20233,7 @@
 			(uuid "6547d8b9-895c-46e6-bbcc-9622b02c5f60")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "C14")
 					(unit 1)
@@ -19846,7 +20243,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 57.15 251.46 0)
+		(at 55.88 243.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19856,7 +20253,7 @@
 		(dnp no)
 		(uuid "17e651c9-eaf8-4388-9706-7e03ab01292e")
 		(property "Reference" "#PWR023"
-			(at 57.15 255.27 0)
+			(at 55.88 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19867,7 +20264,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 57.15 247.396 0)
+			(at 55.88 239.776 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19877,7 +20274,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 251.46 0)
+			(at 55.88 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19888,7 +20285,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 251.46 0)
+			(at 55.88 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19899,7 +20296,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 57.15 251.46 0)
+			(at 55.88 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19913,9 +20310,87 @@
 			(uuid "34f61bd7-064a-4f54-b8e3-1e0c8f00dad5")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Global_Symbol_Library:PAD")
+		(at 231.14 274.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19601f8b-8fd2-4947-9699-674c1449a291")
+		(property "Reference" "U4"
+			(at 231.14 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 231.14 274.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Global_Library:bare-pad-3x3"
+			(at 231.14 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2fc95404-60f5-4faf-90f8-0123acf2d559")
+		)
+		(instances
+			(project "mcxn_test_board"
+				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -19995,7 +20470,7 @@
 			(uuid "c6aadfc2-deda-428e-b9a0-6f990cb0e8c6")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "C24")
 					(unit 1)
@@ -20072,7 +20547,7 @@
 			(uuid "1b8c994c-4564-4c85-a365-7bf02fdf51d8")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR056")
 					(unit 1)
@@ -20161,7 +20636,7 @@
 			(uuid "c954fc51-14d7-4410-994b-ee7584c00a9d")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "R15")
 					(unit 1)
@@ -20171,7 +20646,7 @@
 	)
 	(symbol
 		(lib_id "User_Global_Symbol_Library:VREG-3PIN")
-		(at 72.39 252.73 0)
+		(at 71.12 245.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20182,7 +20657,7 @@
 		(fields_autoplaced yes)
 		(uuid "1eff948d-7a96-4b6b-a9bc-a25665baa97a")
 		(property "Reference" "U2"
-			(at 72.39 246.38 0)
+			(at 71.12 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20192,7 +20667,7 @@
 			)
 		)
 		(property "Value" "MIC5209-3.3YS"
-			(at 72.39 248.92 0)
+			(at 71.12 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20202,7 +20677,7 @@
 			)
 		)
 		(property "Footprint" "User_Global_Library:SOT-223"
-			(at 52.07 247.65 0)
+			(at 50.8 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20215,7 +20690,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 254 0)
+			(at 71.12 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20226,7 +20701,7 @@
 			)
 		)
 		(property "Description" "3-pin regulator"
-			(at 72.39 252.73 0)
+			(at 71.12 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20246,7 +20721,7 @@
 			(uuid "cb419698-cebe-4a81-a7ed-24fc371e5fd0")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "U2")
 					(unit 1)
@@ -20256,7 +20731,7 @@
 	)
 	(symbol
 		(lib_id "User_Global_Symbol_Library:+VIN")
-		(at 31.75 254 0)
+		(at 30.48 246.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20266,7 +20741,7 @@
 		(dnp no)
 		(uuid "1fb6fba6-5364-4e0a-b434-a1729eda694e")
 		(property "Reference" "#PWR022"
-			(at 31.75 257.81 0)
+			(at 30.48 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20277,7 +20752,7 @@
 			)
 		)
 		(property "Value" "+VIN"
-			(at 31.75 249.936 0)
+			(at 30.48 242.316 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20287,7 +20762,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 254 0)
+			(at 30.48 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20298,7 +20773,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 254 0)
+			(at 30.48 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20309,7 +20784,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+VIN\""
-			(at 31.75 254 0)
+			(at 30.48 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20323,7 +20798,7 @@
 			(uuid "c8027a29-141d-4516-b972-bc84e24e97ba")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR022")
 					(unit 1)
@@ -20402,7 +20877,7 @@
 			(uuid "93b4eae8-ff85-413f-8da0-ab90abf2ae9b")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "TP4")
 					(unit 1)
@@ -20484,7 +20959,7 @@
 			(uuid "b7ebb0c5-2aae-4438-98a0-17618655a2c8")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "SW1")
 					(unit 1)
@@ -20561,7 +21036,7 @@
 			(uuid "18f16cb1-4a46-4bd6-9ed0-4b497f6d4805")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR017")
 					(unit 1)
@@ -20638,7 +21113,7 @@
 			(uuid "9c8e16b1-8ca7-4f57-a58c-106975775bb5")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR044")
 					(unit 1)
@@ -20715,7 +21190,7 @@
 			(uuid "b6b6003b-15ad-4be8-92a1-5fa32459417b")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR01")
 					(unit 1)
@@ -20821,7 +21296,7 @@
 			(uuid "be70bf32-39fc-4b17-b4c1-1e5e055bda06")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "J12")
 					(unit 1)
@@ -20898,9 +21373,87 @@
 			(uuid "485aec42-27b9-4242-9abf-08887d7fa0cd")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Global_Symbol_Library:PAD")
+		(at 236.22 274.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a6a831a-23fb-46b8-a53c-c650d195e4f1")
+		(property "Reference" "U5"
+			(at 236.22 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 236.22 274.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Global_Library:bare-pad-3x3"
+			(at 236.22 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "655694a7-8df6-4a7b-9cd6-c676b2cb1bec")
+		)
+		(instances
+			(project "mcxn_test_board"
+				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -20996,7 +21549,7 @@
 			(uuid "14869c52-0ba5-4bed-bbe2-a771891e9bc9")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "J7")
 					(unit 1)
@@ -21073,7 +21626,7 @@
 			(uuid "35b2da65-68a4-49dd-88ba-8685ce987b71")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR051")
 					(unit 1)
@@ -21150,7 +21703,7 @@
 			(uuid "174e4ce5-4e06-40b3-be67-4a2ee2711730")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR060")
 					(unit 1)
@@ -21242,7 +21795,7 @@
 			(uuid "c80f24cf-d8e6-4870-b00f-5168ca0db68a")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "J2")
 					(unit 1)
@@ -21381,7 +21934,7 @@
 			(uuid "4fa01c7a-8eff-4776-9883-00a620155ac4")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "J1")
 					(unit 1)
@@ -21458,7 +22011,7 @@
 			(uuid "917e4255-695b-4253-8dcc-1ec37a95cb85")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR018")
 					(unit 1)
@@ -21538,7 +22091,7 @@
 			(uuid "1381be4c-3267-4394-95cb-4ba5d6814ef7")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "L1")
 					(unit 1)
@@ -21615,7 +22168,7 @@
 			(uuid "a2078bcd-fc11-4c5a-9fb6-84a61e7a7290")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR050")
 					(unit 1)
@@ -21692,9 +22245,87 @@
 			(uuid "9287af4c-f335-4e9a-a8ea-cfaf9b477da0")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Global_Symbol_Library:PAD")
+		(at 260.35 274.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3755ab7a-f37b-49f5-ab4f-c64da2541d85")
+		(property "Reference" "U17"
+			(at 260.35 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 260.35 274.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Global_Library:bare-pad-3x3"
+			(at 260.35 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4805f92a-beb8-42e6-a63f-c73208bb5411")
+		)
+		(instances
+			(project "mcxn_test_board"
+				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
+					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -21779,7 +22410,7 @@
 			(uuid "c9d65031-696d-4beb-8928-ff7a2803c319")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "Y1")
 					(unit 1)
@@ -21789,7 +22420,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 66.04 81.28 0)
+		(at 68.58 77.47 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21797,10 +22428,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "397156df-c33b-4258-88f2-62af9adf65a9")
 		(property "Reference" "C18"
-			(at 68.58 80.0162 0)
+			(at 63.246 79.502 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21811,7 +22441,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 68.58 82.5562 0)
+			(at 70.358 79.502 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21822,7 +22452,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 66.04 81.28 0)
+			(at 68.58 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21833,7 +22463,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 81.28 0)
+			(at 68.58 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21844,7 +22474,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 66.04 81.28 0)
+			(at 68.58 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21861,7 +22491,7 @@
 			(uuid "505ec868-5a54-40ad-a51d-55f2b60c7d7f")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "C18")
 					(unit 1)
@@ -21943,7 +22573,7 @@
 			(uuid "7f65e1fb-6ef3-4abd-9513-9eae47c8854a")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "C19")
 					(unit 1)
@@ -22032,7 +22662,7 @@
 			(uuid "1856e25a-482f-4f08-98d7-91c57a70d603")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "R19")
 					(unit 1)
@@ -22109,9 +22739,260 @@
 			(uuid "25b7c6ab-1691-42e7-9b65-a2db7bc7bafb")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 25.4 93.98 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp yes)
+		(uuid "3c7e6101-b8ee-40d5-be22-9bd50a9021ad")
+		(property "Reference" "C28"
+			(at 23.114 92.456 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 22.86 94.742 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "User_Global_Library:Cap-Tant-CaseB"
+			(at 25.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 25.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d8c6744-a7c1-4d8b-bdeb-023eff09e2e1")
+		)
+		(pin "2"
+			(uuid "f6ab935e-ce4b-410e-8f7f-549afd342b7f")
+		)
+		(instances
+			(project "mcxn_test_board"
+				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 48.26 85.09 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3e4e54f9-524d-42ee-8675-40a9672807e0")
+		(property "Reference" "R20"
+			(at 46.736 87.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 51.562 87.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Global_Library:0402-footprint-improved-Res3D"
+			(at 48.26 86.868 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C723526"
+			(at 48.26 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c0df02ef-cfbe-4419-ad30-d09ec63718b0")
+		)
+		(pin "2"
+			(uuid "de7b3f92-74d5-4a6a-88c6-42df5c3eea3b")
+		)
+		(instances
+			(project "mcxn_test_board"
+				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 217.17 264.16 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3f3bf3cd-f84b-4c02-ad1d-2e671e242322")
+		(property "Reference" "TP8"
+			(at 221.996 264.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0V"
+			(at 224.79 264.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "User_Global_Library:TestPoint_Plated_Hole_0.6mm"
+			(at 222.25 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 217.17 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f6efa9f-4386-4d6a-b6f0-4993bc5b1fe8")
+		)
+		(instances
+			(project "mcxn_test_board"
+				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -22186,7 +23067,7 @@
 			(uuid "c0d03a03-f38e-4edd-bcba-eed75d215e27")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR021")
 					(unit 1)
@@ -22268,7 +23149,7 @@
 			(uuid "842cc143-8ea0-4bac-bf60-e5e30fa77af4")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "C26")
 					(unit 1)
@@ -22350,7 +23231,7 @@
 			(uuid "7105a2b0-dbc5-4aeb-8a46-28f8ae1c51c0")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "C20")
 					(unit 1)
@@ -22427,7 +23308,7 @@
 			(uuid "832056a2-c692-40ab-aba5-514750d6aa8b")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR045")
 					(unit 1)
@@ -22509,7 +23390,7 @@
 			(uuid "4c449217-a63f-4ec5-9486-2bb25b184424")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "C4")
 					(unit 1)
@@ -22591,7 +23472,7 @@
 			(uuid "8625ff15-c854-4d0c-b705-ce082de96766")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "SW2")
 					(unit 1)
@@ -22683,7 +23564,7 @@
 			(uuid "a1f77f23-0ff3-4ec4-898a-2d774a710e9d")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "J3")
 					(unit 1)
@@ -22776,7 +23657,7 @@
 			(uuid "55235c11-85d0-4736-a339-16afb827e462")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "SW5")
 					(unit 1)
@@ -22852,9 +23733,87 @@
 			(uuid "08e9e52c-eeb6-4df7-9689-cff5ab39fd84")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Global_Symbol_Library:PAD")
+		(at 250.19 274.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c49f79a-cff0-4c06-ad4b-73f199f6356b")
+		(property "Reference" "U13"
+			(at 250.19 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 250.19 274.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Global_Library:bare-pad-3x3"
+			(at 250.19 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 250.19 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b74a383-9004-4020-b8f1-2ce76323ee0a")
+		)
+		(instances
+			(project "mcxn_test_board"
+				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -22941,7 +23900,7 @@
 			(uuid "0168196c-3232-4235-ad5f-016796986097")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "R13")
 					(unit 1)
@@ -23023,7 +23982,7 @@
 			(uuid "569ec247-f5c7-4ba2-b4e5-6fb53ed3b58d")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "C1")
 					(unit 1)
@@ -23102,7 +24061,7 @@
 			(uuid "75d0be46-3573-4a36-a943-779581f6aeee")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "TP3")
 					(unit 1)
@@ -23183,7 +24142,7 @@
 			(uuid "d65c1cf4-7e98-4fdd-997f-71b7d4493df8")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "C7")
 					(unit 1)
@@ -23260,7 +24219,7 @@
 			(uuid "6f0d604d-758b-4c9d-a185-e2b43c3c6b78")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR038")
 					(unit 1)
@@ -23342,7 +24301,7 @@
 			(uuid "44416ac0-f38b-4c47-92e7-aabff1a67d37")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "C8")
 					(unit 1)
@@ -23424,7 +24383,7 @@
 			(uuid "039b150c-e879-4da0-b3f5-e273e2bfba3e")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "C9")
 					(unit 1)
@@ -23506,7 +24465,7 @@
 			(uuid "f258f51d-4124-46ae-983b-7b0738a858bd")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "C2")
 					(unit 1)
@@ -23583,7 +24542,7 @@
 			(uuid "7374cca6-b87e-4f7a-b34b-d58d3e0442df")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR077")
 					(unit 1)
@@ -23660,7 +24619,7 @@
 			(uuid "00477eaa-cfc6-48b8-95b9-6cefa98053eb")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR048")
 					(unit 1)
@@ -23669,9 +24628,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 50.8 93.98 0)
-		(mirror y)
+		(lib_id "User_Global_Symbol_Library:PAD")
+		(at 236.22 269.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23679,31 +24637,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6064e900-099f-4bf0-9b61-5e6abbc330c4")
-		(property "Reference" "C10"
-			(at 48.26 92.7162 0)
+		(fields_autoplaced yes)
+		(uuid "60280867-c17c-4e49-83e0-962e52fb9a08")
+		(property "Reference" "U7"
+			(at 236.22 269.24 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 48.26 95.2562 0)
+		(property "Value" ""
+			(at 236.22 269.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "User_Global_Library:0402-footprint-improved-Cap3D"
-			(at 50.8 93.98 0)
+		(property "Footprint" "User_Global_Library:bare-pad-2x2"
+			(at 236.22 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23714,7 +24672,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 93.98 0)
+			(at 236.22 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a226ec4-4d9a-48bf-a5f5-0893d96d06c2")
+		)
+		(instances
+			(project "mcxn_test_board"
+				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 40.64 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6064e900-099f-4bf0-9b61-5e6abbc330c4")
+		(property "Reference" "C10"
+			(at 43.18 92.7162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 43.18 95.2562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "User_Global_Library:0402-footprint-improved-Cap3D"
+			(at 40.64 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23725,7 +24761,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 50.8 93.98 0)
+			(at 40.64 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23742,7 +24778,7 @@
 			(uuid "299868f1-3de2-4507-997c-964e9169c1d5")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "C10")
 					(unit 1)
@@ -23819,7 +24855,7 @@
 			(uuid "cbc5089e-d779-4c11-b88f-d8e90d446825")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR070")
 					(unit 1)
@@ -23901,7 +24937,7 @@
 			(uuid "c9acb606-d150-42a8-96c4-f8805b4954d9")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "C23")
 					(unit 1)
@@ -23978,9 +25014,88 @@
 			(uuid "98b4666c-444f-454d-b16c-e55313fb59e2")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 217.17 269.24 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "659536b5-d98c-47e6-af3c-0a6a1c21ee87")
+		(property "Reference" "TP10"
+			(at 221.996 269.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0V"
+			(at 224.79 269.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "User_Global_Library:TestPoint_Plated_Hole_0.6mm"
+			(at 222.25 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 217.17 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "99219ab6-8c8c-42b5-9da6-5fcee071717e")
+		)
+		(instances
+			(project "mcxn_test_board"
+				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -24055,7 +25170,7 @@
 			(uuid "c114b4d6-106e-48d4-a133-07b7a4b45bdd")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR067")
 					(unit 1)
@@ -24145,7 +25260,7 @@
 			(uuid "a70d271f-1d5a-4b38-ac8c-0de07ea058b2")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "R17")
 					(unit 1)
@@ -24222,7 +25337,7 @@
 			(uuid "57bd70a9-f584-44ff-a8d4-16c3692429f1")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR073")
 					(unit 1)
@@ -24302,7 +25417,7 @@
 			(uuid "f6e5a2a7-402e-47dc-a8d6-bc0ef4b9c156")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "Y2")
 					(unit 1)
@@ -24379,7 +25494,7 @@
 			(uuid "1fa4d1d4-7f92-400a-a189-eec67d26ea8a")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR036")
 					(unit 1)
@@ -24456,7 +25571,7 @@
 			(uuid "70c7f531-d90c-4c03-85cf-1aa585f42438")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR013")
 					(unit 1)
@@ -24533,7 +25648,7 @@
 			(uuid "ce1d251e-4dca-44a4-b25e-c2a4834d6466")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR010")
 					(unit 1)
@@ -24610,7 +25725,7 @@
 			(uuid "e3c0ab4f-2a19-4868-9a80-35ba50df435b")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR066")
 					(unit 1)
@@ -24687,7 +25802,7 @@
 			(uuid "e8f5a32c-e883-4aad-96c2-175b4a89b7a1")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR015")
 					(unit 1)
@@ -24764,7 +25879,7 @@
 			(uuid "3990ffb4-084f-47fb-a7fe-4cc1ee6cc622")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR08")
 					(unit 1)
@@ -24774,7 +25889,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 53.34 85.09 0)
+		(at 38.1 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24784,7 +25899,7 @@
 		(dnp no)
 		(uuid "7888565d-ab81-421b-bb8b-f3967646f91a")
 		(property "Reference" "#PWR020"
-			(at 53.34 88.9 0)
+			(at 38.1 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24795,7 +25910,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 53.34 81.026 0)
+			(at 38.1 81.026 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24805,7 +25920,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 85.09 0)
+			(at 38.1 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24816,7 +25931,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 85.09 0)
+			(at 38.1 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24827,7 +25942,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 53.34 85.09 0)
+			(at 38.1 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24841,7 +25956,7 @@
 			(uuid "6f028ead-37d4-49d9-ac47-70c7087b2d6a")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR020")
 					(unit 1)
@@ -24918,7 +26033,7 @@
 			(uuid "e43f0ba4-ece0-4a1a-9a9b-397d1dd7d0b6")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#FLG04")
 					(unit 1)
@@ -25380,7 +26495,7 @@
 			(uuid "c3514247-3692-4431-b63c-d1a3a7fca477")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "U1")
 					(unit 3)
@@ -25457,7 +26572,7 @@
 			(uuid "015a5ba2-6715-4832-b8b3-b852ac52afa7")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR05")
 					(unit 1)
@@ -25534,7 +26649,7 @@
 			(uuid "a150b4b2-ac41-4b92-945b-383c3c930e72")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR062")
 					(unit 1)
@@ -25544,7 +26659,7 @@
 	)
 	(symbol
 		(lib_id "User_Global_Symbol_Library:1N4007W")
-		(at 46.99 264.16 180)
+		(at 45.72 256.54 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25555,7 +26670,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f279c71-473a-4c3e-bd48-48f05f325013")
 		(property "Reference" "D4"
-			(at 46.99 257.81 0)
+			(at 45.72 250.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25565,7 +26680,7 @@
 			)
 		)
 		(property "Value" "1N4001W"
-			(at 46.99 260.35 0)
+			(at 45.72 252.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25575,7 +26690,7 @@
 			)
 		)
 		(property "Footprint" "User_Global_Library:D_SOD-123-pins12"
-			(at 46.99 257.81 0)
+			(at 45.72 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25586,7 +26701,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 264.16 0)
+			(at 45.72 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25597,7 +26712,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 46.99 267.716 0)
+			(at 45.72 260.096 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25614,7 +26729,7 @@
 			(uuid "a86bce89-3eb7-4109-8fff-03bc4f1741dc")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "D4")
 					(unit 1)
@@ -25691,7 +26806,7 @@
 			(uuid "4e3c4bdf-12b8-4ef3-ad26-72f060d9266a")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR028")
 					(unit 1)
@@ -25784,91 +26899,9 @@
 			(uuid "083c3603-a927-481f-b527-b593968b3fb4")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 55.88 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85f1721f-b690-4545-96f0-9b8b8a0e9c16")
-		(property "Reference" "C16"
-			(at 58.42 92.7162 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 58.42 95.2562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "User_Global_Library:0603-footprint-improved-Cap3D"
-			(at 55.88 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 55.88 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0ca36304-aad3-422c-a185-87e194c5cbcf")
-		)
-		(pin "2"
-			(uuid "ca1580e9-fa02-4d9e-ab2f-4a117720fe8c")
-		)
-		(instances
-			(project "mic_board_nxp"
-				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
-					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -25943,9 +26976,87 @@
 			(uuid "a87b6cd8-e2f6-4135-a980-67960c211b2c")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Global_Symbol_Library:PAD")
+		(at 255.27 264.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88633266-1ffc-430e-8eb2-0c03883627e9")
+		(property "Reference" "U14"
+			(at 255.27 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 255.27 264.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Global_Library:bare-pad-2x1"
+			(at 255.27 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "64c68ed1-a050-4ccf-8d18-f67e3264f09a")
+		)
+		(instances
+			(project "mcxn_test_board"
+				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -26020,7 +27131,7 @@
 			(uuid "4b28cc30-b4e4-4cbe-8404-36d1bac9988c")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR055")
 					(unit 1)
@@ -26097,9 +27208,91 @@
 			(uuid "b8148539-a24a-4994-b285-7293b5a19ecc")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 58.42 93.98 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8c42b894-b706-4d1a-b905-a1efb40c1bc4")
+		(property "Reference" "C16"
+			(at 55.88 92.7162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 55.88 95.2562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "User_Global_Library:0402-footprint-improved-Cap3D"
+			(at 58.42 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 58.42 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce0c3492-5873-4f23-870b-8b90feaf4d06")
+		)
+		(pin "2"
+			(uuid "ef1a5b54-5b12-4813-b4b1-be9e400ff54c")
+		)
+		(instances
+			(project "mcxn_test_board"
+				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -26560,7 +27753,7 @@
 			(uuid "c3514247-3692-4431-b63c-d1a3a7fca478")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "U1")
 					(unit 2)
@@ -26637,7 +27830,7 @@
 			(uuid "436be369-32d4-433e-b525-d0b01c81f32e")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR011")
 					(unit 1)
@@ -26714,7 +27907,7 @@
 			(uuid "b7336d69-afc5-4f8d-86b9-6ece8256d432")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR024")
 					(unit 1)
@@ -26724,7 +27917,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead_Small")
-		(at 53.34 87.63 0)
+		(at 38.1 87.63 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -26735,7 +27928,7 @@
 		(dnp no)
 		(uuid "9204a7be-ae67-4cf2-b79a-5f5c68ddd150")
 		(property "Reference" "FB1"
-			(at 50.8 86.3218 0)
+			(at 35.56 86.3218 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26746,7 +27939,7 @@
 			)
 		)
 		(property "Value" "FBEAD"
-			(at 50.8 88.8618 0)
+			(at 35.56 88.8618 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26757,7 +27950,7 @@
 			)
 		)
 		(property "Footprint" "User_Global_Library:BLM21AG121SH1D"
-			(at 55.118 87.63 90)
+			(at 39.878 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26768,7 +27961,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 87.63 0)
+			(at 38.1 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26779,7 +27972,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead, small symbol"
-			(at 53.34 87.63 0)
+			(at 38.1 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26796,9 +27989,164 @@
 			(uuid "e5e49bc4-264b-4b2a-aab4-d557b48266ed")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Global_Symbol_Library:PAD")
+		(at 255.27 274.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "966de125-7d95-4e9f-9127-eea02aa53c4c")
+		(property "Reference" "U16"
+			(at 255.27 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 255.27 274.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Global_Library:bare-pad-3x3"
+			(at 255.27 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a86b262-dab0-4672-a235-dc222c40e5f5")
+		)
+		(instances
+			(project "mcxn_test_board"
+				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
+					(reference "U16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Global_Symbol_Library:0V")
+		(at 58.42 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "978d74c8-ff1e-4308-948d-d4a9bd7bacfc")
+		(property "Reference" "#PWR080"
+			(at 58.42 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0V"
+			(at 58.42 99.314 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"0V\""
+			(at 58.42 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d6bd243e-717d-4822-a85a-b282cc8c5eaf")
+		)
+		(instances
+			(project "mcxn_test_board"
+				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -26873,7 +28221,7 @@
 			(uuid "50041368-4697-41cc-888e-187baa2635f8")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR057")
 					(unit 1)
@@ -26883,7 +28231,7 @@
 	)
 	(symbol
 		(lib_id "User_Global_Symbol_Library:0V")
-		(at 66.04 83.82 0)
+		(at 59.69 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26893,7 +28241,7 @@
 		(dnp no)
 		(uuid "9b3171b7-79d6-4f91-aca4-255a7cb07e57")
 		(property "Reference" "#PWR09"
-			(at 66.04 88.9 0)
+			(at 59.69 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26904,7 +28252,7 @@
 			)
 		)
 		(property "Value" "0V"
-			(at 66.04 86.614 0)
+			(at 59.69 82.804 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26914,7 +28262,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 83.82 0)
+			(at 59.69 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26925,7 +28273,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 83.82 0)
+			(at 59.69 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26936,7 +28284,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"0V\""
-			(at 66.04 83.82 0)
+			(at 59.69 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26950,7 +28298,7 @@
 			(uuid "b1045c8c-458b-4b6a-b783-49646efe30b2")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR09")
 					(unit 1)
@@ -27066,7 +28414,7 @@
 			(uuid "6ba99a14-027f-4855-b9c9-5df3ec726604")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "J5")
 					(unit 1)
@@ -27188,7 +28536,7 @@
 			(uuid "c1a3e6d1-edc3-4225-9e72-61acef0e23ba")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "J13")
 					(unit 1)
@@ -27265,7 +28613,7 @@
 			(uuid "27be50e2-5cf9-4810-aad0-7957587e1a37")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR064")
 					(unit 1)
@@ -27357,7 +28705,7 @@
 			(uuid "a3327d1a-2a9d-4409-932c-023eb4186c2b")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "J10")
 					(unit 1)
@@ -27367,7 +28715,7 @@
 	)
 	(symbol
 		(lib_id "User_Global_Symbol_Library:0V")
-		(at 53.34 96.52 0)
+		(at 38.1 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27377,7 +28725,7 @@
 		(dnp no)
 		(uuid "a11b9cd4-bb57-4aeb-ae6f-f523c946b6b7")
 		(property "Reference" "#PWR019"
-			(at 53.34 101.6 0)
+			(at 38.1 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27388,7 +28736,7 @@
 			)
 		)
 		(property "Value" "0V"
-			(at 53.34 99.314 0)
+			(at 38.1 99.314 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27398,7 +28746,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 96.52 0)
+			(at 38.1 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27409,7 +28757,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 96.52 0)
+			(at 38.1 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27420,7 +28768,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"0V\""
-			(at 53.34 96.52 0)
+			(at 38.1 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27434,7 +28782,7 @@
 			(uuid "f728455d-c88d-4f69-900a-e1d7f9a77b10")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR019")
 					(unit 1)
@@ -27515,7 +28863,7 @@
 			(uuid "c15aae4e-2d7b-4d59-be24-7ec84c3a9400")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "FB2")
 					(unit 1)
@@ -27592,7 +28940,7 @@
 			(uuid "eba21526-2c9f-4649-aacd-6fda98671c8c")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR049")
 					(unit 1)
@@ -27669,7 +29017,7 @@
 			(uuid "90b31ebc-671e-4a34-b719-280c1667f1ba")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR034")
 					(unit 1)
@@ -27679,7 +29027,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 82.55 261.62 0)
+		(at 81.28 254 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27689,7 +29037,7 @@
 		(dnp no)
 		(uuid "a6b24095-a029-437c-837a-9e087d316155")
 		(property "Reference" "C22"
-			(at 84.836 260.096 0)
+			(at 83.566 252.476 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27700,7 +29048,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 85.09 262.382 0)
+			(at 83.82 254.762 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27711,7 +29059,7 @@
 			)
 		)
 		(property "Footprint" "User_Global_Library:Cap-Tant-CaseB"
-			(at 82.55 261.62 0)
+			(at 81.28 254 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27722,7 +29070,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 261.62 0)
+			(at 81.28 254 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27733,7 +29081,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
-			(at 82.55 261.62 0)
+			(at 81.28 254 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27750,7 +29098,7 @@
 			(uuid "f5e7fc58-5618-4688-8004-4d8592282f6e")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "C22")
 					(unit 1)
@@ -27827,7 +29175,7 @@
 			(uuid "4aabcc14-38db-495a-83bd-ceb088ff9a3b")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR069")
 					(unit 1)
@@ -27904,7 +29252,7 @@
 			(uuid "c6dd2286-0183-4668-8392-a44978c938f5")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR02")
 					(unit 1)
@@ -27983,7 +29331,7 @@
 			(uuid "885c19eb-730e-4d89-b02a-b929fbe29596")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "TP2")
 					(unit 1)
@@ -28060,9 +29408,91 @@
 			(uuid "01bd3fe6-ac6c-44d4-b811-e847f7f2fae5")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 35.56 93.98 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "addd36a5-d668-4b5c-b1b0-5749c42c8519")
+		(property "Reference" "C29"
+			(at 33.02 92.7162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 33.02 95.2562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 35.56 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 35.56 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "88b1a8d6-0651-4116-bfc0-48cec84cda6c")
+		)
+		(pin "2"
+			(uuid "7ed5a153-1297-40b2-b113-1f37622403d5")
+		)
+		(instances
+			(project "mcxn_test_board"
+				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -28142,7 +29572,7 @@
 			(uuid "8d0b9dc0-29c7-4dd0-a3e2-07eda20e44ea")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "C15")
 					(unit 1)
@@ -28252,7 +29682,7 @@
 			(uuid "1a51ea0d-c408-4884-84a0-0ccbc367322a")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "J9")
 					(unit 1)
@@ -28329,7 +29759,7 @@
 			(uuid "276d42f5-cde5-4ab3-8ba4-ba8b25738df0")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR040")
 					(unit 1)
@@ -28439,7 +29869,7 @@
 			(uuid "bc0313d4-3121-48db-8ec2-6f5fca21714c")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "J4")
 					(unit 1)
@@ -28448,9 +29878,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 63.5 261.62 0)
-		(mirror y)
+		(lib_id "User_Global_Symbol_Library:PAD")
+		(at 241.3 274.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28458,31 +29887,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b155c9e9-ee05-4536-87c9-04f92d98c50a")
-		(property "Reference" "C21"
-			(at 61.214 260.096 0)
+		(fields_autoplaced yes)
+		(uuid "b13fcf4b-385b-4162-aebc-eb1b8d57ef11")
+		(property "Reference" "U9"
+			(at 241.3 274.32 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10u"
-			(at 60.96 262.382 0)
+		(property "Value" ""
+			(at 241.3 274.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "User_Global_Library:Cap-Tant-CaseB"
-			(at 63.5 261.62 0)
+		(property "Footprint" "User_Global_Library:bare-pad-3x3"
+			(at 241.3 274.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28493,7 +29922,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 261.62 0)
+			(at 241.3 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ad668eb-e8ea-4d0d-9978-435cb3649e24")
+		)
+		(instances
+			(project "mcxn_test_board"
+				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 62.23 254 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b155c9e9-ee05-4536-87c9-04f92d98c50a")
+		(property "Reference" "C21"
+			(at 59.944 252.476 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 59.69 254.762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "User_Global_Library:Cap-Tant-CaseB"
+			(at 62.23 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 254 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28504,7 +30012,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
-			(at 63.5 261.62 0)
+			(at 62.23 254 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28521,7 +30029,7 @@
 			(uuid "47aa9b9b-6fff-4538-b3ff-843bc6ff1eeb")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "C21")
 					(unit 1)
@@ -28984,7 +30492,7 @@
 			(uuid "c3514247-3692-4431-b63c-d1a3a7fca479")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "U1")
 					(unit 5)
@@ -29063,7 +30571,7 @@
 			(uuid "8ceef581-2116-4baa-8269-e38bf768c804")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "TP5")
 					(unit 1)
@@ -29140,9 +30648,88 @@
 			(uuid "53e0e078-6a60-4e3c-8dab-32c319be451b")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 217.17 271.78 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b33ad411-08b8-4e8a-95c3-9533d8ad1170")
+		(property "Reference" "TP11"
+			(at 221.996 271.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0V"
+			(at 224.79 271.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "User_Global_Library:TestPoint_Plated_Hole_0.6mm"
+			(at 222.25 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 217.17 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e616365b-5861-4ba5-8060-626a3dfd3241")
+		)
+		(instances
+			(project "mcxn_test_board"
+				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -29217,7 +30804,7 @@
 			(uuid "e8fd6de0-7b4d-4534-91ac-56da560003b4")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#FLG01")
 					(unit 1)
@@ -29294,7 +30881,7 @@
 			(uuid "42a9370e-610c-4c65-8574-dbadc7a982ac")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR047")
 					(unit 1)
@@ -29304,7 +30891,7 @@
 	)
 	(symbol
 		(lib_id "User_Global_Symbol_Library:1N4007W")
-		(at 46.99 252.73 180)
+		(at 45.72 245.11 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29315,7 +30902,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4cb8f2d-efef-48ff-8122-6d84015fa032")
 		(property "Reference" "D3"
-			(at 46.99 246.38 0)
+			(at 45.72 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29325,7 +30912,7 @@
 			)
 		)
 		(property "Value" "1N4001W"
-			(at 46.99 248.92 0)
+			(at 45.72 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29335,7 +30922,7 @@
 			)
 		)
 		(property "Footprint" "User_Global_Library:D_SOD-123-pins12"
-			(at 46.99 246.38 0)
+			(at 45.72 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29346,7 +30933,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 252.73 0)
+			(at 45.72 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29357,7 +30944,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 46.99 256.286 0)
+			(at 45.72 248.666 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29374,7 +30961,7 @@
 			(uuid "7c743380-c5c1-46b0-a0da-b3b21e72027e")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "D3")
 					(unit 1)
@@ -29837,7 +31424,7 @@
 			(uuid "c3514247-3692-4431-b63c-d1a3a7fca47a")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "U1")
 					(unit 1)
@@ -29914,7 +31501,7 @@
 			(uuid "a7a4c1ee-065c-4462-a05d-0ac2804e7e05")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR052")
 					(unit 1)
@@ -29996,9 +31583,88 @@
 			(uuid "4ba96e7f-be15-4e81-92e5-572b16311ac0")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 217.17 266.7 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "be9d9fa5-6f78-44cf-9d20-4150c5fabc1e")
+		(property "Reference" "TP9"
+			(at 221.996 266.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0V"
+			(at 224.79 266.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "User_Global_Library:TestPoint_Plated_Hole_0.6mm"
+			(at 222.25 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 217.17 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a9ae3df7-aaff-44a1-b38e-bd45408ceb07")
+		)
+		(instances
+			(project "mcxn_test_board"
+				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -30085,7 +31751,7 @@
 			(uuid "239cb21f-bf35-4ed8-bf46-d521f7b0888e")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "R10")
 					(unit 1)
@@ -30177,7 +31843,7 @@
 			(uuid "4ed943f8-32a2-4668-875e-aa52d9fe99a9")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "J6")
 					(unit 1)
@@ -30254,9 +31920,87 @@
 			(uuid "d891745f-9c6a-4340-a2e0-0e19293634c3")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Global_Symbol_Library:PAD")
+		(at 231.14 269.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2fcb777-0f0a-4d1a-995b-72a098062228")
+		(property "Reference" "U6"
+			(at 231.14 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 231.14 269.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Global_Library:bare-pad-2x2"
+			(at 231.14 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "93b6fb70-dca3-4a8e-9464-e59923bc51c2")
+		)
+		(instances
+			(project "mcxn_test_board"
+				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -30331,7 +32075,7 @@
 			(uuid "1e89cfba-a7ae-4b02-9a14-e97fb55a8f67")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR041")
 					(unit 1)
@@ -30410,7 +32154,7 @@
 			(uuid "02bae1bb-7e3b-482f-8d63-a6c92b38a3bf")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "TP7")
 					(unit 1)
@@ -30499,7 +32243,7 @@
 			(uuid "083c1ef0-307e-4ee3-b1b6-01f772f3c169")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "R18")
 					(unit 1)
@@ -30578,7 +32322,7 @@
 			(uuid "04034463-05a4-463e-8cd4-bd7505ac3a26")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "C11")
 					(unit 1)
@@ -30655,7 +32399,7 @@
 			(uuid "c1f3ba14-9147-4c80-a559-9de4a29095fc")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR04")
 					(unit 1)
@@ -30745,7 +32489,7 @@
 			(uuid "7fb2ec75-2030-44e0-9fb4-24e9014c87d1")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "R11")
 					(unit 1)
@@ -30822,7 +32566,7 @@
 			(uuid "e69a887d-9d62-401b-9b34-9761f705b6d3")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR059")
 					(unit 1)
@@ -30914,7 +32658,7 @@
 			(uuid "73cd166f-e296-4c41-a513-9d7226ade6d4")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "SW4")
 					(unit 1)
@@ -30995,7 +32739,7 @@
 			(uuid "9eead53a-4d76-4593-895d-de6b6ac5f5fb")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "C27")
 					(unit 1)
@@ -31004,8 +32748,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 21.59 259.08 180)
+		(lib_id "User_Global_Symbol_Library:0V")
+		(at 214.63 274.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31013,10 +32757,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df58bb63-b167-424c-afd6-81239b6600c2")
-		(property "Reference" "J14"
-			(at 21.59 250.19 0)
+		(uuid "df3751e7-364f-4159-ad23-3f1d1c3ca8fe")
+		(property "Reference" "#PWR081"
+			(at 214.63 279.4 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31025,8 +32769,8 @@
 				)
 			)
 		)
-		(property "Value" "5VDC IN"
-			(at 21.59 252.73 0)
+		(property "Value" "0V"
+			(at 214.63 277.114 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31035,8 +32779,8 @@
 				)
 			)
 		)
-		(property "Footprint" "User_Global_Library:TerminalBlock_2way-3.5-3.81mm"
-			(at 21.59 259.08 0)
+		(property "Footprint" ""
+			(at 214.63 274.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31047,7 +32791,84 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 259.08 0)
+			(at 214.63 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"0V\""
+			(at 214.63 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d070362f-41a2-4226-945e-c11c68e786e7")
+		)
+		(instances
+			(project "mcxn_test_board"
+				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 20.32 251.46 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df58bb63-b167-424c-afd6-81239b6600c2")
+		(property "Reference" "J14"
+			(at 20.32 242.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5VDC IN"
+			(at 20.32 245.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Global_Library:TerminalBlock_2way-3.5-3.81mm"
+			(at 20.32 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31058,7 +32879,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 21.59 259.08 0)
+			(at 20.32 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31075,7 +32896,7 @@
 			(uuid "346e2c4c-ad18-4891-936a-98c09980434f")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "J14")
 					(unit 1)
@@ -31152,7 +32973,7 @@
 			(uuid "80eda20b-511d-471d-b425-6ddbee95700e")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR030")
 					(unit 1)
@@ -31249,7 +33070,7 @@
 			(uuid "97a64769-cda6-433c-a667-b42e84408073")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "J8")
 					(unit 1)
@@ -31331,7 +33152,7 @@
 			(uuid "48ab5b3b-03d0-44c1-89a4-cefee7431d20")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "C5")
 					(unit 1)
@@ -31413,7 +33234,7 @@
 			(uuid "13eb5365-0bfc-4246-9100-7d4dfc29f2f0")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "D1")
 					(unit 1)
@@ -31490,7 +33311,7 @@
 			(uuid "79957760-8d91-4afc-bdd3-47fb9ec35c16")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR012")
 					(unit 1)
@@ -31567,7 +33388,7 @@
 			(uuid "f5cc0415-61b6-4382-9706-a4d1e5f63f35")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR029")
 					(unit 1)
@@ -31644,7 +33465,7 @@
 			(uuid "6c078fea-6440-410c-8d63-c8399a299339")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR071")
 					(unit 1)
@@ -31721,9 +33542,87 @@
 			(uuid "30afebe1-e2d3-454d-ba09-0299f498f8b8")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Global_Symbol_Library:PAD")
+		(at 236.22 264.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7eeb9ec-744b-4c30-ae37-3056a6298da1")
+		(property "Reference" "U11"
+			(at 236.22 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 236.22 264.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Global_Library:bare-pad-2x1"
+			(at 236.22 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c39f096-c457-45a4-9324-5d05f3f5211b")
+		)
+		(instances
+			(project "mcxn_test_board"
+				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -31810,7 +33709,7 @@
 			(uuid "8bcee4c1-c2b8-462a-ac55-673efc7cdb6a")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "R12")
 					(unit 1)
@@ -31887,7 +33786,7 @@
 			(uuid "169640e8-c1c6-489d-ba0a-73eb8859db0f")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR074")
 					(unit 1)
@@ -31964,7 +33863,7 @@
 			(uuid "6bc0e4d8-5dea-4765-ae78-9da9f55385df")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR026")
 					(unit 1)
@@ -32046,7 +33945,7 @@
 			(uuid "26101190-05b2-4656-a7ad-0ffb3f10a835")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "C17")
 					(unit 1)
@@ -32123,7 +34022,7 @@
 			(uuid "73f270cf-6f06-42c2-8314-145f24d1bdd2")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR043")
 					(unit 1)
@@ -32205,7 +34104,7 @@
 			(uuid "b06878fa-69e0-4232-814f-e4ef86bf6b84")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "D2")
 					(unit 1)
@@ -32282,7 +34181,7 @@
 			(uuid "c0a84447-b194-4e7c-b2ff-e9b2166d4054")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR03")
 					(unit 1)
@@ -32364,7 +34263,7 @@
 			(uuid "38330b8e-7b93-4631-9517-e1f44561982b")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "C3")
 					(unit 1)
@@ -32445,9 +34344,87 @@
 			(uuid "442e47c3-effe-40e8-af48-d523d9e21a11")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Global_Symbol_Library:PAD")
+		(at 231.14 264.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5016646-1f71-4388-8f17-03b5f5a2ac7b")
+		(property "Reference" "U8"
+			(at 231.14 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 231.14 264.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "User_Global_Library:bare-pad-2x1"
+			(at 231.14 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1dadb838-01a0-4cca-b8a3-fd2783118fa1")
+		)
+		(instances
+			(project "mcxn_test_board"
+				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -32522,7 +34499,7 @@
 			(uuid "491261db-c466-460b-a57a-c6500fe72863")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR031")
 					(unit 1)
@@ -32599,7 +34576,7 @@
 			(uuid "bc40fac2-cc62-47b5-97f6-b30a638a704e")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR054")
 					(unit 1)
@@ -32690,7 +34667,7 @@
 			(uuid "17df1e9c-b4b8-4b01-b9f1-0abb09c70e84")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "J11")
 					(unit 1)
@@ -32700,7 +34677,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 39.37 250.19 0)
+		(at 38.1 242.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32710,7 +34687,7 @@
 		(dnp no)
 		(uuid "f959107e-9c16-4a11-9172-6204e61a43f5")
 		(property "Reference" "#PWR06"
-			(at 39.37 254 0)
+			(at 38.1 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32721,7 +34698,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 39.751 245.7958 0)
+			(at 38.481 238.1758 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32731,7 +34708,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 250.19 0)
+			(at 38.1 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32742,7 +34719,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 250.19 0)
+			(at 38.1 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32753,7 +34730,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 250.19 0)
+			(at 38.1 242.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32766,7 +34743,7 @@
 			(uuid "abdac86b-050a-4df7-b701-4f5143b0c8d4")
 		)
 		(instances
-			(project "mic_board_nxp"
+			(project "mcxn_test_board"
 				(path "/b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
 					(reference "#PWR06")
 					(unit 1)

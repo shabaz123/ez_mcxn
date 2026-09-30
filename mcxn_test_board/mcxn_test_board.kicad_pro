@@ -159,7 +159,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.152,
         "min_via_annular_width": 0.125,
         "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
@@ -648,12 +648,72 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part #",
+          "name": "LCSC Part #",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -698,13 +758,13 @@
         "uuid": "b187d4ac-ece4-4658-b898-0c1d6c3e13a1"
       }
     ],
-    "used_designators": "IC1,U1-5,D1-5,L1,#PWR1-79,C1-30,TP1-8,FB1-2,J1-14,#FLG1-4,R10-20,SW1-6,X1,Y1-2,Q1-2,G1",
+    "used_designators": "IC1,U1-17,D1-5,L1,#PWR1-81,C1-30,TP1-11,FB1-2,J1-14,#FLG1-4,R10-20,SW1-6,X1,Y1-2,Q1-2,G1",
     "variants": []
   },
   "sheets": [
     [
       "b187d4ac-ece4-4658-b898-0c1d6c3e13a1",
-      "Root"
+      "mcxn_test_board"
     ]
   ],
   "text_variables": {},
