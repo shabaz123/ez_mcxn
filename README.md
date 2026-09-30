@@ -309,7 +309,7 @@ After programming is complete, press `RESET` without holding `BOOT LOAD`. The MC
 | 1   | UART\_RXD     | 26  | HDR\_PORT4        | 51  | SPARE(TP) | 76  | SWDIO                       |
 | 2   | UART\_TXD     | 27  | HDR\_PORT4        | 52  | 0V        | 77  | SWCLK                       |
 | 3   | CANTX         | 28  | HDR\_PORT4        | 53  | N/C       | 78  | SWO                         |
-| 4   | CANRX         | 29  | HDR\_PORT4        | 54  | 3.3V      | 79  | ?                           |
+| 4   | CANRX         | 29  | HDR\_PORT4        | 54  | 3.3V      | 79  | SPARE(TP)                   |
 | 5   | HDR\_PORT1    | 30  | 3.3V via FBEAD    | 55  | Cap to 0V | 80  | PDM\_CLM                    |
 | 6   | HDR\_PORT1    | 31  | 3.3V via FBEAD    | 56  | TFT\_DC   | 81  | PDM\_DAT                    |
 | 7   | HDR\_PORT1    | 32  | 0V                | 57  | TFT\_RST  | 82  | BOOT\_BTN\_CAP\_AND\_PULLUP |
