@@ -9085,9 +9085,9 @@
 		)
 		(uuid "66c1ea96-9dd9-4c9f-a617-8dbc7013debd")
 	)
-	(text "1"
+	(text "0.1"
 		(exclude_from_sim no)
-		(at 394.208 278.638 0)
+		(at 396.24 278.638 0)
 		(effects
 			(font
 				(size 3.81 3.81)
