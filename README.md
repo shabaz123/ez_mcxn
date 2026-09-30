@@ -334,7 +334,7 @@ After programming is complete, press `RESET` without holding `BOOT LOAD`. The MC
 
 # Parts List
 
-Here is the parts list for the EZ-MXCN board:
+Here is the parts list for the EZ-MCXN board:
 
 | Reference          | Qty | Value          | Description                                                          |
 | ------------------ | --- | -------------- | -------------------------------------------------------------------- |
