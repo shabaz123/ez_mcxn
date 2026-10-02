@@ -332,7 +332,7 @@ After programming is complete, press `RESET` without holding `BOOT LOAD`. The MC
 | 24  | HDR\_PORT4    | 49  | XTAL32K           | 74  | LED2      | 99  | HDR\_PORT1                  |
 | 25  | HDR\_PORT4    | 50  | N/C               | 75  | TFT\_CS2  | 100 | HDR\_PORT1                  |
 
-# Parts List
+# EZ-MCXN Parts List
 
 Here is the parts list for the EZ-MCXN board:
 
@@ -367,7 +367,38 @@ Here is the parts list for the EZ-MCXN board:
 | Y1                 | 1   | 830108212309   | Wurth 24MHz Crystal SMD 2016 4-pin 2.0x1.6mm                         |
 | Y2                 | 1   | 830009678      | Wurth 32.768kHz Crystal SMD 2-pin 3.2x1.5mm                          |
 
+# MINI-MCXN Board
+The MINI-MCXN is a very cut-down board, with just 8 GPIO exposed via a flat-flex connector, and pads for attaching wires to PDM mics.
 
+![0.75](readme.assets/mini_kicad_render.png)
+
+## MINI-NCXN Parts List
+
+| Reference | Qty | Value             | Description                                           |
+| --------- | --- | ----------------- | ----------------------------------------------------- |
+| C1-C12    | 12  | 100n              | 0402 Capacitor                                        |
+| C13-C15   | 3   | 1u                | 0603 Capacitor                                        |
+| C17       | 1   | 4.7u              | 0805 Capacitor                                        |
+| C18       | 1   | 2.2u              | 0805 Capacitor                                        |
+| C19       | 1   | 10u               | 0805 Capacitor                                        |
+| C21, C22  | 2   | 10u               | Case B Tantalum Capacitor 10V e.g. TPSB106K016R0800   |
+| C23       | 1   | 1n                | 0603 Capacitor                                        |
+| C26, C27  | 2   | 4.7p              | 0402 Capacitor                                        |
+| C29       | 1   | 1u                | 0805 Capacitor                                        |
+| D1        | 1   | LED               | 0603 LED                                              |
+| FB1, FB2  | 2   | BLM21AG121SH1D    | SMD Ferrite Bead 0805 120 ohm                         |
+| J1        | 1   | USB4085           | USB Type C Receptacle Through-Hole                    |
+| J2        | 1   | JST SH 4-way Conn | Connector JST SH SM04B-SRSS-TB 1mm pitch Horiz        |
+| J5        | 1   | FFC_0.5MM 16-way  | FFC Connector Hirose FH12-16S-0.5SH 0.5mm pitch Horiz |
+| R10, R11  | 2   | 5.1k              | 0402 Resistor                                         |
+| R12, R13  | 2   | 10k               | 0402 Resistor                                         |
+| R14       | 1   | 1k                | 0402 Resistor                                         |
+| SW1-SW3   | 3   | SKQGAFE010        | Tact button SMD 5x5mm body 3.7x6.2mm pitch            |
+| SW4, SW5  | 2   | Tact 4x3mm        | Tact button 4x3mm body 2-pin                          |
+| U1        | 1   | MCXN236VKLT       | NXP MCXN236/235/547VKLT HLQFP100                      |
+| U2        | 1   | MIC5209-3.3YS     | 3.3V LDO SOT-223                                      |
+| U3        | 1   | SRV05-4           | ESD Diode Array                                       |
+| Y1        | 1   | 830108212309      | Wurth 24MHz Crystal SMD 2016 4-pin 2.0x1.6mm          |
 
 
 
