@@ -372,7 +372,7 @@ The MINI-MCXN is a very cut-down board, with just 8 GPIO exposed via a flat-flex
 
 ![0.75](readme.assets/mini_kicad_render.png)
 
-## MINI-NCXN Parts List
+## MINI-MCXN Parts List
 
 | Reference | Qty | Value             | Description                                           |
 | --------- | --- | ----------------- | ----------------------------------------------------- |
