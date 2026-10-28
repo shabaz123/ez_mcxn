@@ -351,8 +351,8 @@ Here is the parts list for the EZ-MCXN board:
 | C23                | 1   | 1n             | 0603 Ceramic Capacitor                                               |
 | C26, C27           | 2   | 4.7p           | 0603 Ceramic Capacitor                                               |
 | C29                | 1   | 1u             | 0805 Ceramic Capacitor                                               |
-| D1, D2             | 2   | LED            | 0805 LED (0603 fits too)                                             |
-| D3, D4             | 2   | 1N4001W        | SOD-123 Diode                                                        |
+| D1, D2             | 2   | LED            | 0805 LED (0603 fits too) D1=RED, D2=BLUE                             |
+| D3, D4             | 2   | MBR0540        | SOD-123 Schottky Diode                                               |
 | FB1, FB2           | 2   | BLM21AG121SH1D | SMD Ferrite Bead 0805 120 ohm                                        |
 | J1                 | 1   | USB4085        | USB Type C Receptacle Through-Hole                                   |
 | J2-J11             | 1   | Header         | Dual Row 2.54mm Pin Header (total 2 x 42 way, cut to required sizes) |
@@ -385,7 +385,7 @@ The MINI-MCXN is a very cut-down board, with just 8 GPIO exposed via a flat-flex
 | C23       | 1   | 1n                | 0603 Capacitor                                        |
 | C26, C27  | 2   | 4.7p              | 0402 Capacitor                                        |
 | C29       | 1   | 1u                | 0805 Capacitor                                        |
-| D1        | 1   | LED               | 0603 LED                                              |
+| D1        | 1   | LED               | 0603 LED RED                                          |
 | FB1, FB2  | 2   | BLM21AG121SH1D    | SMD Ferrite Bead 0805 120 ohm                         |
 | J1        | 1   | USB4085           | USB Type C Receptacle Through-Hole                    |
 | J2        | 1   | JST SH 4-way Conn | Connector JST SH SM04B-SRSS-TB 1mm pitch Horiz        |
