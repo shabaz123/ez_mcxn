@@ -8,7 +8,7 @@
             ],
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:/DEV/projects/mcuxpresso-sdk/mcuxsdk/**"
+                "${env:MCUXPRESSO_SDK_ROOT}/**"
             ],
             "defines": [
             ],
