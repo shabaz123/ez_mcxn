@@ -1,3 +1,0 @@
-mainmenu "UART Output"
-
-source "${SdkRootDirPath}/Kconfig.mcuxpresso"
