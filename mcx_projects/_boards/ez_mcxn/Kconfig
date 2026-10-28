@@ -1,0 +1,20 @@
+# 
+#
+#
+
+rsource "Kconfig.defconfig"
+
+config MCUX_HW_BOARD_ez_mcxn
+    bool
+    default y
+
+    imply MCUX_HW_DEVICE_MCXN236
+
+    imply MCUX_COMPONENT_driver.common
+    imply MCUX_COMPONENT_driver.clock
+    imply MCUX_COMPONENT_driver.reset
+    imply MCUX_COMPONENT_driver.gpio
+    imply MCUX_COMPONENT_driver.port
+    imply MCUX_COMPONENT_driver.lpflexcomm
+    imply MCUX_COMPONENT_driver.lpflexcomm_lpuart
+    imply MCUX_COMPONENT_driver.mcx_spc
