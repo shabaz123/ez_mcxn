@@ -292,6 +292,8 @@ If you installed NXP SPSDK (mentioned earlier) then afer you've pressed the butt
 .\build.ps1 flash
 ```
 
+If all goes well, the new firmware will start running!
+
 The PC can communicate with the ROM bootloader using NXP's `blhost` command-line utility or MCUXpresso Secure Provisioning Tool (the above command uses the Python SPSDK install, view the contents of the `build.ps1` file to see the commands that were used).
 
 A useful first test with `blhost` is to ask the bootloader for its version/property information. For USB HID, `blhost` uses the USB VID/PID of the ROM bootloader.
