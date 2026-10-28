@@ -14,7 +14,7 @@ This folder contains a board config and example blinky application source code. 
 
 # Environment Variables
 
-The following user vars (environment variables) may need to be created:
+The following user vars (environment variables) will need to be created:
 
 `ARMGCC_DIR = C:\DEV\arm_gnu_toolchains\15.2.rel1 `(this folder should contain bin, include, lib folders and so on)
 
@@ -44,6 +44,7 @@ The following are required:
 * CMake and Ninja
 * Python
 * MCUXpresso Config Tools
+* NXP Secure Provisioning SDK (SPSDK), installed by typing: `py -m pip install spsdk`
 * `west`
 
 The project workspace is expected to be:
@@ -75,10 +76,16 @@ Open PowerShell in the project directory:
 cd C:\dev\projects\mcx_projects\double_blinky
 ```
 
+One-time, you may need to enable permissions by typing:
+```
+Unblock-File .\build.ps1
+```
+
 For a clean build:
 
 ```powershell
-.\build.ps1 pristine
+.\build.ps1 clean
+.\build.ps1 build debug
 ```
 
 The build output is placed in:
@@ -99,20 +106,23 @@ Useful build commands are:
 ```powershell
 .\build.ps1
 .\build.ps1 clean
-.\build.ps1 pristine
+.\build.ps1 debug
+.\build.ps1 release
 .\build.ps1 menuconfig
 .\build.ps1 list
+.\build.ps1 flash
 ```
 
 The commands have the following purposes:
 
-* `.\build.ps1` — Builds the project using the existing build configuration. This is normally the quickest command to use after changing source code.
-* `.\build.ps1 clean` — Cleans compiled files from the existing build, then allows the project to be rebuilt.
-* `.\build.ps1 pristine` — Deletes the existing build configuration and creates it again from scratch. Use this after changing board files, Kconfig settings or CMake files, or if a normal build behaves unexpectedly.
-* `.\build.ps1 menuconfig` — Opens the interactive Kconfig configuration interface, allowing SDK and project configuration options to be viewed or changed.
-* `.\build.ps1 list` — Displays the project/build configuration being used by the script, such as the board, SDK, toolchain and build directory.
+* `.\build.ps1` - Builds the project using the debug build configuration.
+* `.\build.ps1 clean` - Cleans compiled files from the existing build. Use this after changing board files, Kconfig settings or CMake files, or if a normal build behaves unexpectedly. Also, do this whenever changing between debug and release builds.
+* `.\build.ps1 release` - Builds the project using the debug build configuration.
+* `.\build.ps1 menuconfig` - Opens the interactive Kconfig configuration interface, allowing SDK and project configuration options to be viewed or changed.
+* `.\build.ps1 list` - Displays the project/build configuration being used by the script, such as the board, SDK, toolchain and build directory.
+* * `.\build.ps1 flash` - Uses SPSDK to flash the microcontroller. Before executing this command, hold down the BOOT button and reset the microcontroller, then release the BOOT button.
 
-For normal source-code changes, `.\build.ps1` is usually sufficient. Use `pristine` after changing the board configuration, Kconfig files or CMake files.
+For normal source-code changes, for debug builds, `.\build.ps1` is usually sufficient. Use `clean` after changing the board configuration, Kconfig files or CMake files.
 
 ## Creating a New Project
 
@@ -129,10 +139,11 @@ Then:
 1. In `CMakeLists.txt`, change the project name from `double_blinky` to `testproj`.
 2. In `Kconfig`, change the displayed project name.
 3. Modify `main.c` for the new application.
-4. Build with:
+4. For VS Code Intellisense Syntax Highlighting to work well, edit the file `mcx_projects\.vscode\c_cpp_properties.json` to add your project folder in the `compileCommands` section.
+5. Build with:
 
 ```powershell
-.\build.ps1 pristine
+.\build.ps1 debug
 ```
 
 The existing `ez_mcxn` board configuration can be shared by multiple projects.
@@ -194,7 +205,8 @@ When finished, use **Update Code** to regenerate the files in the `board` subfol
 Then rebuild the application:
 
 ```powershell
-.\build.ps1 pristine
+.\build.ps1 clean
+.\build.ps1 debug
 ```
 
 ## Creating a New Board Configuration
@@ -223,7 +235,7 @@ Finally, change the `$Board` setting in the project's `build.ps1`:
 $Board = "myboard"
 ```
 
-Then perform a pristine build.
+Then perform a clean build.
 
 ## EZ-MCXN Hardware
 
@@ -249,7 +261,7 @@ A compatible SWD debug probe, for example MCU-Link, can be used for programming 
 Build the project first using:
 
 ```powershell
-.\build.ps1 pristine
+.\build.ps1 debug
 ```
 
 The ELF file for debugging/programming is then available at:
@@ -275,7 +287,12 @@ To enter ROM ISP mode:
 
 The MCXN236 should now be running its built-in ROM ISP bootloader rather than the application in flash.
 
-The PC can communicate with the ROM bootloader using NXP's `blhost` command-line utility or MCUXpresso Secure Provisioning Tool.
+If you installed NXP SPSDK (mentioned earlier) then afer you've pressed the buttons to get into the bootloader mode, type:
+```
+.\build.ps1 flash
+```
+
+The PC can communicate with the ROM bootloader using NXP's `blhost` command-line utility or MCUXpresso Secure Provisioning Tool (the above command uses the Python SPSDK install, view the contents of the `build.ps1` file to see the commands that were used).
 
 A useful first test with `blhost` is to ask the bootloader for its version/property information. For USB HID, `blhost` uses the USB VID/PID of the ROM bootloader.
 
