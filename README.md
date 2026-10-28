@@ -360,7 +360,7 @@ Here is the parts list for the EZ-MCXN board:
 | J13                | 1   | Keypad         | 4x4 or 4x3 keypad and 7- or 8-way header pin or socket if required   |
 | J14                | 1   | Terminal Block | 2-way Screw Terminal Block 3.5 or 3.81mm pitch                       |
 | SW1-SW3            | 3   | SKQGAFE010     | Tact button SMD 5x5mm body 3.7x6.2mm pitch                           |
-| SW4, SW5           | 1   | TS-1101        | Tact button SMD 6x3.6mm                                              |
+| SW4, SW5           | 2   | TS-1101        | Tact button SMD 6x3.6mm                                              |
 | U1                 | 1   | MCXN236VKLT    | NXP  MCXN236/235/547VKLT HLQFP100                                    |
 | U2                 | 1   | MIC5209-3.3YS  | 3.3V LDO SOT-223                                                     |
 | U3                 | 1   | SRV05-4        | ESD Diode Array                                                      |
