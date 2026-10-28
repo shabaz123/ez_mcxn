@@ -139,7 +139,7 @@ Then:
 1. In `CMakeLists.txt`, change the project name from `double_blinky` to `testproj`.
 2. In `Kconfig`, change the displayed project name.
 3. Modify `main.c` for the new application.
-4. For VS Code Intellisense Syntax Highlighting to work well, edit the file `mcx_projects\.vscode\c_cpp_properties.json` to add your project folder in the `compileCommands` section.
+4. For VS Code IntelliSense Syntax Highlighting to work well, edit the file `mcx_projects\.vscode\c_cpp_properties.json` to add your project folder in the `compileCommands` section. Note: For IntelliSense to fully work, open the top folder `mcx_projects`, not the individual project folder. You may need to restart VS Code after performing a first build for each project, for IntelliSense to fully work, because it relies on a file that gets generated and placed in the project folder output subdirectory.
 5. Build with:
 
 ```powershell
